@@ -8,7 +8,7 @@ contract MyContract{
 
     function forRevert(uint val) public pure{
         if (val < 10){
-            revert("Cannot send.");
+            revert("Cannot send if value is less than 10.");
         }
     }
 
